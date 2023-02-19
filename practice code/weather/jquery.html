@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>"
+    <style>
+        #div-effect{
+            width: 200px;
+            height: 60px;
+            background-color:red;
+        }
+        #div-effect1{
+            width: 200px;
+            height: 90px;
+            background-color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome to jQuery</h1>
+        <p id="p-tag">Lorem ipsum d.</p>
+        <p id="p2">
+            You get a complete script
+        </p>
+            <input type="button" id='btn' value="Click me">
+            <div id="div-effect">
+                Div 1
+            </div>
+        <div id="div-effect1">
+            Div 2
+        </div>
+    <script>
+       /*  function hide(){
+            document.getElementById('p-tag').style.visiblity='hidden';
+        } */
+      /*   $(document).ready($('#btn').click(function(){
+            $('#p-tag').ttoggle();
+        })) */
+        $(document).ready(
+            $('#div-effect1').slideDown(5000)
+            )
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!--<html>
+    <head>
+    <title>Music Website</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="container">
+        <div class="navbar">
+           <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SPECIFICATIONS</a></li>
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="#">CONNECT</a></li>
+           </ul> 
+        </div>
+        <div class="container">
+            <div class="left-col">
+                <h1>THE<br>REAL<br>SOUND</h1>
+       </div>
+       <div class="right-col">
+          <p>Click Here To Listen</p>
+          <img src="./captures/music player.jpg">
+            </div>
+            <audio id="ringtones">
+                <source src="./captures/Professional.mp3" type="audip/mp3">
+            </audio>
+           <script>
+            var ringtones = document.getElementById("ringtones");
+            var icon = document.getElementById("icon")
+           icon.onclick = function(){
+              if(ringtones.paused){
+                ringtones.play();
+                icon.src = "professional (1).mp3";
+              }else{
+                ringtones.pause();
+                icon.src ="Professional (2).mp3";
+              }
+            }
+           </script>
+
+       </div>
+    </body>
+</html>-->

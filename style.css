@@ -1,0 +1,14 @@
+h1{
+    border-style: outset;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+}
+td{
+    border-style: groove;
+    border-width: 15px;
+    border-color:wheat;
+    border-radius: 15px;
+    padding: 5px;
+}

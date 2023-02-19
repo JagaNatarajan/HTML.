@@ -1,0 +1,14 @@
+#para{
+    margin-top: 2%;
+    background-image:url('./un.jpg') ;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    background-image: url('./univ_logo_blue.png');
+    background-size: cover;
+    width: 900px;
+    height: 110px;
+    background-position: center;
+    margin-right: 50px;
+}

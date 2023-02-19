@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>
+        <br>
+        <br>
+    </h1>
+    </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <style>
+        p{
+            font-style: italic;
+            color: rgb(14, 4, 24);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+        #div-effect{
+            width: 800px;
+            height: 40px;
+            background-color: rgb(212, 231, 238);
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(44, 33, 33);
+            align-items: center;
+        }
+        #div-effect1{
+            width: 500px;
+            height: 40vh;
+            background-color: lightgoldenrodyellow;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(44, 33, 33);
+        }
+    </style>
+    <div id="para">
+    <body style= "background-color: rgb(252, 219, 255);">
+        <div clas="container" style="width:100%; background: rgb(175, 176, 177); border:2px solid black">
+        <div style="padding:10px">
+        <form id="myform" method="post"  enctype="multipart/form-data">
+
+            <div class="form-group">
+                <label form ="">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+            </div>
+                <div class="form-group">
+                <label form ="">Email</label>  
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+            </div>
+      
+        <div class="form-group">
+            <label form ="">Image</label>  
+            <input type="file" name="Image" id="Image" class="form-control" placeholder="Image">
+        </div>
+
+        <div class="form-group"> 
+            <input type="submit" name="submit" id="submit" class="btn btn-primary" placeholder="Send">
+        </div>
+        </form></div>
+    </form></div>
+        <p>Batch Name<input type="text"></p>
+   <script src="./jsfile.js"></script> 
+    
+<div style="border: 1px solid rgb(2, 1, 1);">
+    <br><p>The University of Madras is a public state university in Chennai, Tamil Nadu, India. 
+    Established in 1857, it is one of the oldest and among the most prominent universities in India.</p>
+</div>
+<div style="border: 1px solid black;">
+ <p>The University of Madras has developed an excellent Institute of Distance Education (IDE) in the year 1981</p>  
+</div>
+<div style="border: 1px solid black;">
+    <p>The University of Madras (also known as Madras University) is a public state university in Chennai, Tamil Nadu,</p>  
+   </div>
+<button id="hide">Hide Paragraph</button>
+<button id="show">Show Paragraph</button>
+<button id="fade">Display</button>
+<br>
+<br>
+<br>
+<div id="div-effect1">
+    <li>Internal examination dates are been published</li>
+    <li>Hall-tickkets are been published</li>
+</div>
+<div id="div-effect">
+    Examination date are announced for all A12 batches
+    </div>
+    <br></body>
+    <footer>
+        <br>
+        <br>
+        <button id="v">Logout</button>
+        </footer>
+<script>
+    $(document).ready(function(){
+
+        $('#div-effect1').animate({height:'40px'},3000)
+        $('#div-effect').animate({width:'600px'},200)
+    });
+    
+
+        $("#hide").click(function(){
+            $("p").hide('slow');
+            alert("The paragraphs are now hidden");
+        });
+   
+     $("#show").click(function(){
+            $("p").show();
+        });
+
+        $("#fade").click(function(){
+            $("p").fadeToggle();
+        });
+        
+        $("#btn").click(function(){    
+ });
+
+</script>
+</div>
+</div>
+</body>
+</html>
